@@ -136,14 +136,17 @@ void fsm_simple_buttons_run () {
 			display7SEG(counter);
 			if(is_Button0_Pressed()){
 				counter = 0;
+				setTimer0(10000);
 			}
 			if(is_Button1_Pressed()){
 				counter++;
 				if(counter > 9) counter = 0;
+				setTimer0(10000);
 			}
 			if(is_Button2_Pressed()){
 				counter--;
 				if(counter < 0) counter = 9;
+				setTimer0(10000);
 			}
 			if(timer0_flag == 1){
 				mode = MODE_INIT;
