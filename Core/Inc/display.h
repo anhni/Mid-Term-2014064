@@ -10,11 +10,9 @@
 
 #include "global.h"
 #include "software_timer.h"
-//#include "input_processing.h"
-//#include "input_reading.h"
 #include "button.h"
 void fsm_simple_buttons_run ();
 void update7SEG(int index);
-void display_led();
+void led_blinky ();
 
 #endif /* INC_DISPLAY_H_ */

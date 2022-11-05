@@ -16,8 +16,6 @@ void HAL_TIM_PeriodElapsedCallback ( TIM_HandleTypeDef * htim )
 		getKeyInput_0();
 		getKeyInput_1();
 		getKeyInput_2();
-		//button_reading () ;
-		//fsm_for_input_processing();
 	}
 }
 
